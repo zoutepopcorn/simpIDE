@@ -1,13 +1,14 @@
 # simpIDE
 Test to browser IDE:  xterm + monaco + treejs
 
-
+```
 |
 |
 ----- monaco-editor-samples 
 |
 |
 ----- xterm.js
+```
 
 $ 
 ```
