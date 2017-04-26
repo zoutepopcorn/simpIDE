@@ -13,9 +13,13 @@ Test to browser IDE:  xterm + monaco + treejs
 $ 
 ```
 https://github.com/sourcelair/xterm.js.git
+cd xterm.js
+npm install .
 ```
 
 $
 ```
 https://github.com/Microsoft/monaco-editor-samples
+cd monaco-editor-samples
+npm install .
 ```
