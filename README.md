@@ -8,8 +8,8 @@ Test to browser IDE:  xterm + monaco + treejs
   -- demo
      |
      -- monaco-editor-samples
-         app.js
-         index.html
+         app.js      (replace with old one)
+         index.html  (replace with old one)
 ```
 
 $ 
