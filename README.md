@@ -3,11 +3,13 @@ Test to browser IDE:  xterm + monaco + treejs
 
 ```
 |
-|
------ monaco-editor-samples 
-|
-|
------ xterm.js
+- xterm.js 
+  |
+  -- demo
+     |
+     -- monaco-editor-samples
+         app.js
+         index.html
 ```
 
 $ 
@@ -17,8 +19,9 @@ cd xterm.js
 npm install .
 ```
 
-$
+../xterm.js $
 ```
+cd demo        
 https://github.com/Microsoft/monaco-editor-samples
 cd monaco-editor-samples
 npm install .
