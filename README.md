@@ -6,10 +6,8 @@ Test to browser IDE:  xterm + monaco + treejs
 - xterm.js 
   |
   -- demo
-     |
-     -- monaco-editor-samples
-         app.js      (replace with old one)
-         index.html  (replace with old one)
+       |--  app.js      <<-  replace width the files from this git
+       |--  index.html  <<-- replace width the files from this git
 ```
 
 $ 
