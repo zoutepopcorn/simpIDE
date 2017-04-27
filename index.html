@@ -14,12 +14,9 @@
 </head>
 
 <body>
-  <h1>xterm</h1>
-  <div id="terminal-container"></div>
-
 
   <!-- MONACO EDITOR -->
-  <div id="container" style="width:800px;height:600px;border:1px solid grey"></div>
+  <div id="container"></div>
 
   <script src="./monaco-editor-samples/node_modules/monaco-editor/min/vs/loader.js"></script>
   <script>
@@ -28,7 +25,6 @@
         'vs': './monaco-editor-samples/node_modules/monaco-editor/min/vs'
       }
     });
-
     require(['vs/editor/editor.main'], function() {
       var editor = monaco.editor.create(document.getElementById('container'), {
         value: [
@@ -40,9 +36,13 @@
       });
     });
   </script>
-  <!-- MONACO EDITOR -->
+  <!-- //// MONACO EDITOR -->
 
+  <!-- XTERM -->
+  <div id="terminal-container"></div>
+  <!-- //// XTERM -->
 
+  <!-- XTERM HIDDEN SETTINGS LEAVE THIS IN TO WORK -->
   <div style="display: none">
     <p>
       <label><input type="checkbox" id="option-cursor-blink"> cursorBlink</label>
