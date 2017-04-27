@@ -14,7 +14,7 @@ Test to browser IDE:  xterm + monaco + treejs
 
 $ 
 ```
-https://github.com/sourcelair/xterm.js.git
+git clone https://github.com/sourcelair/xterm.js.git
 cd xterm.js
 npm install .
 ```
@@ -22,7 +22,11 @@ npm install .
 ../xterm.js $
 ```
 cd demo        
-https://github.com/Microsoft/monaco-editor-samples
+git clone https://github.com/Microsoft/monaco-editor-samples
 cd monaco-editor-samples
 npm install .
+```
+../monaco-editor-samples
+```
+
 ```
